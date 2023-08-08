@@ -1,3 +1,13 @@
+/*
+Crear dos funciones tipo flecha.
+Condiciones: 
+Una de ellas debe manipular arreglos (debe hacer pop() o push()).
+La segunda debe tomar dos parámetros de entrada y no usar return para regresar el resultado.
+Crear una tercera función tipo flecha que sea un callback function.
+
+Mostrar el resultado de la callback function, usando las dos funciones anteriores.
+*/
+
 // Función flecha que manipula un arreglo
 const manipulateArray = (arr, operation) => {
   if (operation === "pop") {
